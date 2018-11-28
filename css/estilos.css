@@ -112,7 +112,7 @@ button:focus {
 /*********************************/
 
 .quienes-somos {
-    background-color: var(--color2);
+    background-color: var(--color1);
     color: var(--color4);
 }
 
@@ -236,6 +236,25 @@ button:focus {
 /*********************************/
 
 .footer {
-    height: 35rem;
-    background-color: var(--color1);
+    height: 20rem;
+    /* background-color: var(--color1); */
+    background-image: url('../img/galeria/galeria_12.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+}
+
+.footer-filtro {
+    height: 20rem;
+    background-color: black;
+    opacity: .8;
+}
+
+.footer-logo {
+    font-family: 'Patua One', cursive;
+    font-size: 2rem;
 }
