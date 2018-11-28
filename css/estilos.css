@@ -4,6 +4,8 @@
     --color3: #6BBAB5;
     --color4: #FAE3D6;
     --color5: #E3CCBD;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Patua One', cursive;
 }
 
 
@@ -19,6 +21,7 @@
 
 .menu {
     background-color: #398689;
+    font-family: 'Patua One', cursive;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -82,22 +85,28 @@ button:focus {
 /*********************************/
 
 
-/********* QUIENES SOMOS *********/
+/********* SEPARADOR *********/
 
 
 /*********************************/
 
 .separador {
-    height: 100px;
-    background-color: black;
+    /* height: 200px; */
+    background-color: var(--color3);
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
 }
+
+
+/*********************************/
+
+
+/********* QUIENES SOMOS *********/
+
+
+/*********************************/
 
 .quienes-somos {
-    background-color: var(--color1);
-    color: var(--color4);
-}
-
-.quienes-somos2 {
     background-color: var(--color1);
     color: var(--color4);
 }
@@ -111,27 +120,20 @@ button:focus {
 }
 
 
-/* .pepe {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
+/*********************************/
+
+
+/*********   PROYECTOS   *********/
 
 
 /*********************************/
 
 
-/********* PROYECTOS *********/
-
-
-/*********************************/
-
-.proyectos {
+/* .proyectos {
     height: 1000px;
-    /* background-color: var(--color4); */
+    background-color: var(--color4);
     color: var(--color1);
-}
+} */
 
 .btn-warning {
     background-color: var(--color2);
@@ -164,4 +166,32 @@ button:focus {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     z-index: 999;
+}
+
+
+/*********************************/
+
+
+/*********  CONTACTENOS  *********/
+
+
+/*********************************/
+
+.contactenos {
+    min-height: 35rem;
+    background: url('../img/parallax.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.galeria-imagenes {
+    height: 1000px;
+}
+
+.contactenos-filtro {
+    height: 35rem;
+    background-color: black;
+    opacity: .6;
 }
