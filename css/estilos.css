@@ -1,0 +1,167 @@
+:root {
+    --color1: #112F3B;
+    --color2: #2B7379;
+    --color3: #6BBAB5;
+    --color4: #FAE3D6;
+    --color5: #E3CCBD;
+}
+
+
+/********* HEADER *********/
+
+.header .container-fluid {
+    padding: 0;
+}
+
+.header .img-fluid {
+    height: 100vh;
+}
+
+.menu {
+    background-color: #398689;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    color: var(--color3)!important;
+}
+
+.navbar-brand>span {
+    color: var(--color4)!important;
+}
+
+button:focus {
+    outline: none;
+    ;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        background-color: transparent;
+    }
+    .header {
+        position: relative;
+    }
+    .header .menu {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+        border: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .img-fluid {
+        height: 50vh;
+    }
+}
+
+
+/*********************************/
+
+
+/********* QUIENES SOMOS *********/
+
+
+/*********************************/
+
+.separador {
+    height: 100px;
+    background-color: black;
+}
+
+.quienes-somos {
+    background-color: var(--color1);
+    color: var(--color4);
+}
+
+.quienes-somos2 {
+    background-color: var(--color1);
+    color: var(--color4);
+}
+
+.imagen-bg {
+    min-height: 35rem;
+    background-image: url(../img/quienes-somos.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+
+/* .pepe {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+/*********************************/
+
+
+/********* PROYECTOS *********/
+
+
+/*********************************/
+
+.proyectos {
+    height: 1000px;
+    /* background-color: var(--color4); */
+    color: var(--color1);
+}
+
+.btn-warning {
+    background-color: var(--color2);
+    border-color: var(--color2);
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: var(--color1);
+    color: white;
+    border-color: var(--color1);
+}
+
+.card-boton {
+    margin-top: auto!important;
+}
+
+.imagen-card {
+    height: 190px;
+}
+
+.efecto:hover {
+    box-shadow: 1px 1px #e8e8e8, 2px 2px #e8e8e8, 3px 3px #e8e8e8;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.efecto2:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 999;
+}
