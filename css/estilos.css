@@ -4,8 +4,14 @@
     --color3: #6BBAB5;
     --color4: #FAE3D6;
     --color5: #E3CCBD;
-    font-family: 'Archivo Black', sans-serif;
     font-family: 'Patua One', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Taviraj', serif;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
 }
 
 
@@ -94,7 +100,6 @@ button:focus {
     /* height: 200px; */
     background-color: var(--color3);
     color: white;
-    font-family: 'Archivo Black', sans-serif;
 }
 
 
@@ -155,16 +160,17 @@ button:focus {
     height: 190px;
 }
 
-.efecto:hover {
+
+/* .efecto2:hover {
     box-shadow: 1px 1px #e8e8e8, 2px 2px #e8e8e8, 3px 3px #e8e8e8;
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
-}
+} */
 
-.efecto2:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+.efecto:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
     z-index: 999;
 }
 
@@ -184,14 +190,21 @@ button:focus {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
-}
-
-.galeria-imagenes {
-    height: 1000px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
 }
 
 .contactenos-filtro {
     height: 35rem;
     background-color: black;
     opacity: .6;
+}
+
+.galeria-imagenes {
+    height: 1000px;
+    font-family: 'Taviraj', serif;
+    font-weight: 700;
+    font-size: 3rem;
 }
