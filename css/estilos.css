@@ -96,11 +96,11 @@ button:focus {
 
 /*********************************/
 
-.separador {
-    /* height: 200px; */
+
+/* .separador {
     background-color: var(--color3);
     color: white;
-}
+} */
 
 
 /*********************************/
@@ -112,7 +112,7 @@ button:focus {
 /*********************************/
 
 .quienes-somos {
-    background-color: var(--color1);
+    background-color: var(--color2);
     color: var(--color4);
 }
 
@@ -128,17 +128,16 @@ button:focus {
 /*********************************/
 
 
-/*********   PROYECTOS   *********/
+/******* EMPRENDIMIENTOS  ********/
 
 
 /*********************************/
 
-
-/* .proyectos {
-    height: 1000px;
-    background-color: var(--color4);
-    color: var(--color1);
-} */
+.emprendimientos h1 {
+    font-family: 'Exo 2', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+    font-weight: 400;
+}
 
 .btn-warning {
     background-color: var(--color2);
@@ -184,7 +183,7 @@ button:focus {
 /*********************************/
 
 .contactenos {
-    min-height: 35rem;
+    min-height: 30rem;
     background: url('../img/parallax.jpeg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -193,18 +192,50 @@ button:focus {
     color: white;
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
-    font-size: 4rem;
 }
 
 .contactenos-filtro {
-    height: 35rem;
+    height: 30rem;
     background-color: black;
-    opacity: .6;
+    opacity: .8;
 }
 
+.contactenos-filtro .contactenos-contenido a {
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+
+/*********************************/
+
+
+/******* Galeria Imagenes ********/
+
+
+/*********************************/
+
 .galeria-imagenes {
-    height: 1000px;
-    font-family: 'Taviraj', serif;
-    font-weight: 700;
+    /* font-family: 'Taviraj', serif; */
+    /* font-weight: 700; */
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
     font-size: 3rem;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*********************************/
+
+
+/************ Footer *************/
+
+
+/*********************************/
+
+.footer {
+    height: 35rem;
+    background-color: var(--color1);
 }
