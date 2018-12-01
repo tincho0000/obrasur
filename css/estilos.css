@@ -1,3 +1,15 @@
+
+@import 'css/bootstrap.min.css';
+@import 'css/animate.css';
+@import 'css/owl.carousel.css';
+@import 'css/classy-nav.min.css';
+@import 'css/magnific-popup.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/nice-select.css';
+@import 'css/jquery-ui.min.css';
+
+
 :root {
     --color1: #112F3B;
     --color2: #2B7379;
@@ -269,4 +281,170 @@ nav.redes-sociales a {
 
 nav.redes-sociales a:last-child {
     margin-right: 0px;
+}
+
+/*Contact */
+
+#contact{
+    background-color:#ffff;
+    font-family: 'Patua One';
+    text-decoration: none;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:1px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:1px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-transparent-dark {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-transparent-light {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+/* :: 9.0 Welcome Area CSS */
+
+.single-hero-slide {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 800px;
+    @media #{$breakpoint-lg} {
+        height: 700px;
+    }
+    @media #{$breakpoint-md} {
+        height: 650px;
+    }
+    @media #{$breakpoint-xs} {
+        height: 550px;
+    }
+}
+
+.hero-slides-content {
+    text-align: center;
+    h2 {
+        color: $color-white;
+        font-size: 60px;
+        margin-bottom: 0;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        background-color: $color-dark;
+        line-height: 1;
+        display: inline-block;
+        @media #{$breakpoint-md} {
+            font-size: 40px;
+        }
+        @media #{$breakpoint-xs} {
+            font-size: 16px;
+        }
+        @media #{$breakpoint-xs-landscape} {
+            font-size: 24px;
+        }
+    }
+}
+
+.hero-area {
+    .owl-prev,
+    .owl-next {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 50%;
+        line-height: 36px;
+        text-align: center;
+        color: $color-white;
+        left: 70px;
+        margin-top: -19px;
+        opacity: 0;
+        @include trans-duration(500ms);
+        background-color: $bg-default;
+        font-size: 16px;
+        @media #{$breakpoint-xs} {
+            left: 30px;
+        }
+        &:hover {
+            background-color: $color-dark;
+        }
+    }
+    .owl-next {
+        left: auto;
+        right: 70px;
+        @media #{$breakpoint-xs} {
+            left: auto;
+            right: 30px;
+        }
+    }
+    &:hover .owl-prev,
+    &:hover .owl-next {
+        opacity: 1;
+    }
+    .owl-dots {
+        width: 1110px;
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        @include transform (translateX(-50%));
+        @media #{$breakpoint-lg} {
+            width: calc(100% - 6%);
+            left: 5%;
+            @include transform (translateX(0%));
+        }
+        @media #{$breakpoint-md} {
+            width: calc(100% - 6%);
+            left: 5%;
+            @include transform (translateX(0%));
+        }
+        @media #{$breakpoint-xs} {
+            width: calc(100% - 30px);
+            left: 20px;
+            @include transform (translateX(0%));
+        }
+    }
+    .owl-dot {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: $bg-default;
+        font-size: 12px;
+        color: $color-white;
+        text-align: center;
+        margin-bottom: 5px;
+        &.active {
+            background-color: $color-dark;
+        }
+    }
 }
