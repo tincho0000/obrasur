@@ -38,8 +38,11 @@ body {
 }
 
 .menu {
-    background-color: #398689;
-    font-family: 'Patua One', cursive;
+    /* background-color: #398689; */
+    background-color: black;
+    /* font-family: 'Patua One', cursive; */
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -75,7 +78,8 @@ button:focus {
 
 @media (min-width: 768px) {
     .menu {
-        background-color: transparent;
+        /* background-color: transparent; */
+        background-color: rgba(0, 0, 0, 0.2)
     }
     .header {
         position: relative;
@@ -144,6 +148,10 @@ button:focus {
 
 
 /*********************************/
+
+.emprendimientos {
+    background-color: rgb(250, 250, 250);
+}
 
 .emprendimientos h1 {
     font-family: 'Exo 2', sans-serif;
@@ -229,6 +237,7 @@ button:focus {
 .galeria-imagenes {
     /* font-family: 'Taviraj', serif; */
     /* font-weight: 700; */
+    background-color: rgb(250, 250, 250);
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     font-size: 3rem;
@@ -236,6 +245,18 @@ button:focus {
 
 .modal {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
 }
 
 
@@ -269,6 +290,13 @@ button:focus {
 .footer-logo {
     font-family: 'Patua One', cursive;
     font-size: 2rem;
+    color: var(--color3);
+}
+
+.footer-logo span {
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    color: var(--color4);
 }
 
 nav.redes-sociales a {
