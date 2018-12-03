@@ -217,6 +217,9 @@ button:focus {
     -ms-transform: scale(1.03);
     transform: scale(1.03);
     /* z-index: 9; */
+    -webkit-box-shadow: 6px 10px 41px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 6px 10px 41px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 6px 10px 41px 0px rgba(0, 0, 0, 0.7);
 }
 
 
