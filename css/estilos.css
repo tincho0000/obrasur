@@ -64,16 +64,20 @@ button:focus {
     color: white;
 }
 
+.navegacion-principal {
+    background-color: black!important;
+}
+
 @media (min-width: 768px) {
     .menu {
         /* background-color: transparent; */
         background-color: rgba(0, 0, 0, 0.2)
     }
     .header {
-        position: relative;
+        /* position: relative; */
     }
     .header .menu {
-        position: absolute;
+        /* position: absolute; */
         z-index: 100;
         width: 100%;
     }
@@ -256,7 +260,7 @@ button:focus {
 /*********************************/
 
 .footer {
-    height: 20rem;
+    min-height: 20rem;
     /* background-color: var(--color1); */
     background-image: url('../img/galeria/galeria_12.jpg');
     background-attachment: fixed;
