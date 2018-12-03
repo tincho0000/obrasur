@@ -99,7 +99,9 @@ button:focus {
     .header .img-fluid {
         height: 50vh;
     }
+    /* .fixed-top {
         position: unset!important;
+    } */
 }
 
 @media (max-width: 346px) {
@@ -110,7 +112,9 @@ button:focus {
     h1 {
         font-size: 1.5rem;
     }
+    /* .fixed-top {
         position: unset!important;
+    } */
 }
 
 
