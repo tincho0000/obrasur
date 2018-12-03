@@ -99,18 +99,30 @@ button:focus {
     .header .img-fluid {
         height: 50vh;
     }
+    .carrousel {
+        margin-top: 90px;
+    }
     /* .fixed-top {
         position: unset!important;
     } */
 }
 
 @media (max-width: 346px) {
+    .header .img-fluid {
+        height: 40vh;
+    }
     .navbar-brand {
         font-size: 2rem;
     }
     .h1,
     h1 {
         font-size: 1.5rem;
+    }
+    p {
+        font-size: .9rem;
+    }
+    .carrousel {
+        margin-top: 70px;
     }
     /* .fixed-top {
         position: unset!important;
@@ -282,7 +294,7 @@ button:focus {
 /*********************************/
 
 .footer {
-    min-height: 20rem;
+    min-height: 25rem;
     /* background-color: var(--color1); */
     background-image: url('../img/galeria/galeria_12.jpg');
     background-attachment: fixed;
@@ -295,7 +307,7 @@ button:focus {
 }
 
 .footer-filtro {
-    height: 20rem;
+    height: 25rem;
     background-color: black;
     opacity: .8;
 }
