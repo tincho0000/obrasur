@@ -141,9 +141,12 @@ button:focus {
 .seguinos {
     background-color: var(--color3);
     color: var(--color1);
-    font-style: oblique;
     font-family: 'Exo 2', sans-serif;
     font-weight: 900;
+    /* border-color: black; */
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+    /* border-bottom: black; */
 }
 
 .boton-redes {
