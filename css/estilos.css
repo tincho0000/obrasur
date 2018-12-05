@@ -144,8 +144,8 @@ button:focus {
     font-family: 'Exo 2', sans-serif;
     font-weight: 900;
     /* border-color: black; */
-    border-bottom: solid white 1px;
-    border-top: solid white 1px;
+    /* border-bottom: solid white 1px; */
+    /* border-top: solid white 1px; */
     /* border-bottom: black; */
 }
 
