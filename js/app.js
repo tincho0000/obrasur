@@ -1,3 +1,7 @@
+// Inicio WOW
+new WOW().init();
+
+// Animacion NAV
 window.onscroll = function(e) {
     let scroll = window.scrollY;
 
