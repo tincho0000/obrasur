@@ -149,6 +149,10 @@ button:focus {
     /* border-bottom: black; */
 }
 
+.seguinos h1 {
+    font-size: 3.5rem;
+}
+
 .boton-redes {
     background-color: var(--color1);
     color: var(--color4);
