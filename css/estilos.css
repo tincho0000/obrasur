@@ -198,7 +198,7 @@ button:focus {
     min-height: 35rem;
     background-image: url(../img/quienes-somos.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -373,4 +373,29 @@ nav.redes-sociales a {
 
 nav.redes-sociales a:last-child {
     margin-right: 0px;
+}
+
+
+/***************************************************************************************************
+
+
+*********** NOSOTROS ************
+
+
+***************************************************************************************************/
+
+.paginas-internas .encabezado {
+    background-image: url('../img/galeria/galeria_1.jpg');
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.paginas-internas .encabezado {
+    color: white;
+}
+
+.paginas-internas .nosotros {
+    /* height: 50vh; */
 }
