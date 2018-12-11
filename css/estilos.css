@@ -396,6 +396,65 @@ nav.redes-sociales a:last-child {
     color: white;
 }
 
-.paginas-internas .nosotros {
-    /* height: 50vh; */
+
+/* .paginas-internas .nosotros p {
+    font-size: .8rem;
+} */
+
+.paginas-internas .nosotros .img-container {
+    max-width: 300px;
+    max-height: 210px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.paginas-internas .nosotros .img-container:before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+
+.paginas-internas .nosotros .img-container:hover:before {
+    opacity: .75;
+    width: 100%;
+    height: 100%;
+}
+
+.paginas-internas .nosotros .img-container span {
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    transition: top .3s linear;
+}
+
+.paginas-internas .nosotros .img-container:hover span {
+    top: 50%;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .paginas-internas .nosotros .img-container:hover span {
+        top: 5%;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .paginas-internas .encabezado {
+        margin-top: 90px;
+    }
+}
+
+.paginas-internas .titulo {
+    background-color: var(--color1);
+    color: var(--color4);
+    height: 100px;
+    text-align: center;
 }
