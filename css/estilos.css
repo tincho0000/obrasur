@@ -129,8 +129,9 @@ button:focus {
     } */
 }
 
-.carousel-item {
-    transition: transform 5s ease, opacity 2s ease-out!important;
+.carousel-fade .carousel-item {
+    /* transition: transform 5s ease, opacity 2s ease-out!important; */
+    transition-duration: 2.6s;
 }
 
 
@@ -471,4 +472,3 @@ nav.redes-sociales a:last-child {
 
 
 ***************************************************************************************************/
-
