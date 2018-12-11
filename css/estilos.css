@@ -129,6 +129,10 @@ button:focus {
     } */
 }
 
+.carousel-item {
+    transition: transform 5s ease, opacity 2s ease-out!important;
+}
+
 
 /*********************************/
 
